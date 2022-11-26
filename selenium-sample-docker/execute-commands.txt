@@ -1,0 +1,5 @@
+cd /Users/xxx/workspace/selenium-sample/selenium-sample-docker/
+
+docker-compose -f docker-compose.yml up --build -d
+
+java -jar /opt/java/libs/selenium-sample-1.0-SNAPSHOT-all.jar
